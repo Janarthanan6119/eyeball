@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #edeff0;
+    text-align: center;
+    top: 50px;
+    background-color: black;
+    
+ }
+ 
+
+  h1
+  {
+    color: red;
+  }
+  img
+    {
+      position: absolute;
+      top: 180px;
+      text-align: center;
+      left: 405px;
+      width: 680px;
+      height: 330px;
+      border-radius: 50%;
+    }
+  
+  .eyes {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+  .eye {
+    width: 80px;
+    height: 50px;
+    background: #fff;
+    display: inline-block;
+    margin: 59px;
+    left: 68px;
+    border-radius: 70%;
+    position: relative;
+    overflow: hidden;
+    }
+  .ball {
+    width: 25px;
+    height: 35px;
+    background-color: black;
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  .mask1
+  {
+    max-width: 1280px;
+  height: 650px;
+  overflow-y: scroll;
+  background: url(Muni.jpg) no-repeat;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient (black, transparent);
+  color: brown;
+}
